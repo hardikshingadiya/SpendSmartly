@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Records"
+        android:icon="@drawable/records" android:id="@+id/record_menu"
+        app:showAsAction="ifRoom"/>
+    <item android:title="Analytics"
+        android:icon="@drawable/analytics" android:id="@+id/analytics_menu"
+        app:showAsAction="ifRoom"/>
+    <item android:title="Budget"
+        android:icon="@drawable/budget" android:id="@+id/budget_menu"
+        app:showAsAction="ifRoom"/>
+    <item android:title="Categories"
+        android:icon="@drawable/categories" android:id="@+id/categories_menu"
+        app:showAsAction="ifRoom"/>
+    <item android:title="More"
+        android:icon="@drawable/expand_down" android:id="@+id/account_menu"
+        app:showAsAction="ifRoom"/>
+</menu>

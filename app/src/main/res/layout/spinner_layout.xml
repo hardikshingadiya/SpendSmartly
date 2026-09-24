@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:padding="10dp"
+    android:text="Category"
+    android:textStyle="bold"
+    android:textColor="@color/blue"
+    android:drawableRight="@drawable/baseline_arrow_drop_down_24"
+    android:drawablePadding="20dp"
+    android:drawableTint="@color/blue"
+    android:drawableTintMode="multiply"
+    android:background="@drawable/orange_border_bg">
+
+</CheckedTextView>

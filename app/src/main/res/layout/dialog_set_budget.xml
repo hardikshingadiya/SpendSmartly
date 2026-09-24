@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@color/white"
+
+    >
+
+<EditText
+    android:id="@+id/amount_input"
+    android:textColor="@color/blue"
+    android:textStyle="bold"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Budget Limit"
+    android:textColorHint="@color/main_bg"
+    android:inputType="numberDecimal"
+    android:drawableLeft="@drawable/budget"
+    android:drawableTint="@color/orange"
+    android:padding="5dp"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/orange_border_bg"
+    android:drawablePadding="8dp"/>
+
+<EditText
+    android:id="@+id/start_date_input"
+    android:textColor="@color/blue"
+    android:textStyle="bold"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Budget Starting Date"
+    android:textColorHint="@color/main_bg"
+    android:focusable="false"
+    android:inputType="none"
+    android:drawableLeft="@drawable/done"
+    android:drawableTint="@color/orange"
+    android:padding="5dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/orange_border_bg"
+    android:drawablePadding="8dp"/>
+
+<EditText
+    android:id="@+id/end_date_input"
+    android:textColor="@color/blue"
+    android:textStyle="bold"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Budget Ending Date"
+    android:textColorHint="@color/main_bg"
+    android:focusable="false"
+    android:inputType="none"
+    android:padding="5dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/orange_border_bg"
+    android:drawableLeft="@drawable/cancel"
+    android:drawableTint="@color/orange"
+    android:drawablePadding="8dp"/>
+</LinearLayout>
